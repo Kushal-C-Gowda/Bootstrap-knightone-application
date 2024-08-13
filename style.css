@@ -1,0 +1,159 @@
+html,body{
+    margin:0px;
+    padding:0px;
+}
+
+nav li
+{
+    display:inline;
+    margin-left: 100px;
+}
+
+nav a
+{
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+
+
+}
+nav
+{
+    padding-top: 20px;
+}
+.banner
+{
+    height: 700px ;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("https://media.istockphoto.com/id/1363104923/photo/diverse-modern-office-businessman-leads-business-meeting-with-managers-talks-uses.jpg?s=612x612&w=0&k=20&c=R6-SufHacJ6bCnviq37kik2Jl6RMdECybcUpEoRuMLs=");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+
+.my-nav
+{
+    margin-left: 80px;
+}
+
+.logo
+{
+    font-size: 30px;
+    font-weight: bold;
+}
+.btn
+{
+    background-color: rgb(13, 241, 142);
+    padding: 6px 18px 6px 18px;
+    color:white;
+    border:green 1px solid;
+    border-radius: 20px;
+
+}
+.btn:hover
+{
+    background-color: rgb(20, 241, 75);
+}
+.my-banner-content
+{
+    color:white;
+    text-align:center;
+    position:relative;
+    top:50px;
+}
+.my-banner-content h1
+{
+    font-size:50px
+}
+.my-banner-content p
+{
+    font-size:30px
+}
+.aboutus
+{
+    margin: 100px;
+}
+.aboutus li
+{
+    margin-top:8px
+}
+
+.btn-tranparent
+{
+    background-color: transparent;
+    padding: 10px 24px 10px 24px;
+    color:green;
+    border:green 1px solid;
+    border-radius: 20px;
+
+}
+.btn-tranparent:hover
+{
+    background-color: rgb(20, 241, 75);
+}
+.aboutus-subdiv div
+{
+    display: inline-block;
+    width: 500px;
+}
+.services
+{
+    margin:80px;
+}
+.my-div-bg
+{
+    background-color: rgba(234, 237, 234, 0.452);
+}
+.card
+{
+    height: 350px;
+    width: 350px;
+    background-color: white;
+    border-radius: 20px;
+    display: inline-block;
+    margin-left: 30px;
+    margin-top:30px;
+    padding: 30px;
+    transition:transform 1s;
+
+}
+.card:hover
+{
+    box-shadow:0px 5px green;
+    transform: translate(0px,-10px);
+}
+.card i
+{
+    background-color: green;
+    color:white;
+    padding:20px;
+    border-radius: 100%;
+}
+.cta
+{
+    height: 250px;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("https://cdn.pixabay.com/photo/2016/11/22/22/12/architecture-1850857_960_720.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color:white;
+    padding: 40px 100px 40px 100px;
+}
+.cta-btn
+{
+    background-color: rgb(13, 241, 142);
+    padding: 6px 18px 6px 18px;
+    color:white;
+    border:green 1px solid;
+    border-radius: 20px;
+    float: right;
+
+}
+.cta-btn:hover
+{
+    background-color: rgb(20, 241, 75);
+}
+
+.cta-div div
+{
+    width: 500px;
+    display: inline-block;
+}
